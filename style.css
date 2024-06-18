@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    font-family: "Montserrat", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  main{
+    margin-top: 5rem;
+  }
+
+
+.carousel-item {
+    transition: transform 2s ease, opacity 2s ease;
+    
+  }
