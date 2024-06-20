@@ -20,3 +20,52 @@ body {
     transition: transform 2s ease, opacity 2s ease;
     
   }
+
+.list-group-item{
+    cursor: pointer;
+    user-select: none;
+    padding: 1rem;
+  
+
+  }
+  
+
+  .list-group-item::before{
+    content: '';
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-image: url(image/circle\ red.jpg); 
+    background-size: cover;
+    background-position: center;
+    margin-left: -2rem;
+    top: 1.5rem;
+    
+  
+  }
+
+  ul li.checked{
+    color: #4e4d4d;
+    text-decoration: line-through;
+  }
+
+  ul li.checked::before{
+    background-image: url(image/checked-circle.avif);
+  }
+
+
+  #delete-img{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+  
+  }
+
+  #delete-img:hover{
+  
+    transform: scale(1.2);
+  }
